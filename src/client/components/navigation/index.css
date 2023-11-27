@@ -3,16 +3,30 @@
     flex-direction: row;
     justify-content: flex-end;
 
-    background-color: white;
+    background-color: #53a2be;
+
+    margin-bottom: 10px;
 }
 
 #navigation_bar {
     height: 10%;
     width: 60%;
-    background-color: white;
+    background-color: #53a2be;
 
     display: flex;
     flex-direction: row;
 
     justify-content: space-around;
+}
+
+.navigation_tab {
+    border-right-style: solid;
+    border-left-style: solid;
+    border-radius: 10px;
+
+    width: 20%;
+
+    text-align: center;
+
+    background-color: white;
 }

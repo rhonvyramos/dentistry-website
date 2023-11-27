@@ -1,3 +1,11 @@
+:root {
+    --color_1: #53a2be;
+    --color_2: #1D84B5;
+    --color_3: #132E32;
+    --color_4: #176087;
+    --color_0: white;
+}
+
 #client_facing {
     display: flex;
     flex-direction: column;
@@ -17,16 +25,16 @@
 }
 
 #header_container {
-    background-color: red;
+    background-color: var(--color_1);
     height: 15%;
 }
 
 #content_container {
-    background-color: orange;
+    background-color: var(--color_2);
     height: 70%;
 }
 
 #footer_container {
-    background-color: yellow;
+    background-color: var(--color_3);
     height: 15%;
 }
