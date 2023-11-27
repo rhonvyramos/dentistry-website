@@ -9,7 +9,6 @@ export default function Client_Facing() {
     return(
         <section id="client_facing">
             <div id="header_container">
-                HEADER ELEMENTS
                 <Header />
             </div>
             <div id="content_container">
